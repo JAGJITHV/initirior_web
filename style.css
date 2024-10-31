@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+.cf-1{
+    width: 100%;
+    height: 90vh;
+    /* overflow: scroll; */
+}
+.navbar-main{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    height: 50px;
+}
+.navbar-nav .nav-link:focus{
+    color: #207561;
+}
+.navbar-nav .nav-link{
+    font-size: 16px;
+}
+.navbar-nav .ideal-cen-txt{
+    font-size: 25px;
+    color: #207561;
+    font-weight: 400;
+}
+.carousel .carousel-indicators .cf-1-round-btn{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 700px;
+}
+.carousel .carousel-indicators .cf-1-round-btn:focus{
+    background-color: #207561;
+}
+.carousel-item{
+    text-align: center;
+
+}
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav-main1{
+    display: flex;
+    justify-content: center;
+}
+.nav-main{
+    width: 900px;
+}
+.d-block{
+    width: 100%;
+    background-size:contain;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+}
+.carousel-item .carousel-caption{
+    position: relative;
+    bottom: 800px;
+}
+.cf-1--btn{
+    color: white;
+    background-color: #207561;
+    border-radius: 0px;
+    font-weight: 400;
+    height: 42px;
+    width: 140px;
+    border: 0px;
+}
+.cf-1-main-hd{
+    font-size: 35px;
+    color: #364d59;
+    font-weight: 370;
+}
+.cf-1-main-hd-dis{
+    font-size: 15px;
+    color: #364d59;
+    font-weight: 300;
+}
+.cf-1-main-hd-ideal{
+    color: #207561;
+}
+/* .nav-main-div{
+    
+} */
+.cf-2{
+    height: 150vh;
+    width: 100%;
+    background-image: url('images/dot-grid.png');
+    position: relative;
+    bottom: 60px;
+}
+.cf-2-main-div{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 50px;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.cf-2-sub-div1{
+    width: 500px;
+    height: 500px;
+}
+.cf-2-sub-div2{
+    width: 360px;
+    height: 360px;
+    border: solid 5px #207561;
+    background-color: white;
+    padding-left: 45px;
+    padding-top: 40px;
+}
+.cf-2-sub-div-dis{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+.cf-2-sub-div-dis2{
+    font-size: 17px;
+    font-weight: 300;
+}
+.cf-2-sub-div-link{
+    color: #207561;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.cf-2-sub-div2-dis{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cf-2-sub-div2-dis2{
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+}
+.cf-2-sub-div2-dis2-num{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+    bottom: 60px;
+    right: 10px;
+}
+.cf-2-sub-div2-round-main{
+    height: 100px;
+    width: 200px;
+}
+.cf-2-sub-div2-round{
+    height: 60px;
+    width: 60px;
+    border-radius: 360px;
+    background-color: #207561;
+}
